@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+
+<style>
+.form1{
+      color:green;
+      font-family: "calibri";
+text-align: center;
+ 
+}
+
+p1{
+       font-family:"calibri";
+
+}
+p{
+        font-weight: bold;
+        font-family:"calibri"; 
+ 
+}
+
+.flex{
+
+display: flex;
+margin-bottom: 1px;
+
+
+
+}
+
+.text{
+
+max-width: 400px;
+
+}
+
+.middle{
+
+margin-left: 30%;
+margin-right: 35%;
+display: flex;
+background: rgb(252, 251, 251);
+}
+
+</style>
+</head>
+
+<body  bgcolor="green">
+
+  <div class="middle">
+  <fieldset>
+  <div class="form1">
+ <h1>Survey Form</h1></div>
+
+<p1> Feel free to answer the questions based on own experince</p1>
+
+
+  <p> Your Name <br> <input type="text"  style="width: 200px" Placeholder="Enter your name "> </p> 
+  <p> Your Mail Address <br> <input type="text"  style="width: 200px" Placeholder="Enter your Mail Address "> </p>
+  <p> Your Phone number <br> <input type="text"  style="width: 200px" Placeholder="Enter your Phone number "> </p>
+  <p> Where do you live <br> 
+    <select >
+    <option value="0">Select</option>
+    <option value="1">Hyderabad</option>
+    <option value="2">Kolkata</option>
+    <option value="3">mumbai</option>
+    <option value="4">chennai</option>
+    <option value="5">Delhi</option>
+    <option value="6">Other city</option>
+</select>
+
+<div class="flex">
+<fieldset >
+  
+
+  <legend>Age </legend>
+
+ 
+  <Label >
+<input type="radio" name="Age" value="a" > 15-20
+<input type="radio" name="Age" value="b" > 21-30 
+<input type="radio" name="Age" value="c"> 31-40
+<input type="radio" name="Age" value="d"> 41-50 
+<input type="radio" name="Age" value="e"> Prefer not to say
+</fieldset>
+  </Label> </div>
+
+  <div class="radio button">
+
+      <p> How would you rate your proficiency in coding </p> 
+
+          <input type = "radio"> Beginner
+          <input type = "radio"> Intermediate
+          <input type = "radio">Advance
+
+<p> Have you ever Appeared in any coding contest </p> 
+
+  <input type = "radio"> Yes 
+  <input type = "radio"> No
+  </div>
+
+  <div class="text">
+
+  <p> Discuss what drives your passion for coding and outline your aspirations in the field </p>
+
+
+  <input type="text" style=  "width: 350px ; height: 50px"> 
+
+  
+    <p> What are some of the challenges you face while coding </p>
+  
+  
+    <input type="text" style=  "width: 350px ; height: 50px"> 
+
+
+    <p>Please list the Data Structures you have strong understanding of </p>
+  
+    <input type="text" style=  "width: 350px ; height: 50px"> 
+
+  </div>
+<label>
+
+
+<center>
+<button > Submit form</button>
+
+
+</center>
+</fieldset>
+</div>
+
+</div>
+
+</label>
+
+
+
+</body>
+</html>
